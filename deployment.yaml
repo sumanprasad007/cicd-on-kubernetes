@@ -35,6 +35,6 @@ spec:
     spec:
       containers:
       - name: webserver
-        image: sumanprasad007/cicd-on-kubernetes
+        image: sumanprasad007/cicd-on-kubernetes:v1
         ports:
         - containerPort: 80
